@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
 .container {
   display: grid;
   grid-template-columns: repeat(2);
@@ -7,26 +11,50 @@
   background-color: pink;
   margin: 0 auto;
   width: 1000px;
-
 }
 
-#donuts{
-    font-size: 65px;
+.auto-clicker-count {
+    font-family: 'Concert One', cursive;
+  font-size: x-large;
 }
 
+.auto-clicker-price {
+    font-family: 'Concert One', cursive;
+  font-size: x-large;
+}
 
- .donut-button{
-     display: flex;
-     justify-content: center;
- }
+#auto-clicker-button {
+  padding: 8px;
+  border-radius: 20px;
+  font-size: large;
+  background-color: lightgray;
+  border-color: black;
+  font-family: "Bebas Neue", cursive;
+}
 
+#donuts {
+  font-size: 65px;
+  font-family: "Amatic SC", cursive;
+}
+
+.donut-button {
+  display: flex;
+  justify-content: center;
+}
 
 .donut-container {
   padding: 20px;
   display: center;
 }
- 
+
+h2 {
+  padding: 10px;
+  margin: auto;
+  font-size: 35px;
+}
+
 .perks {
   padding: 10px;
-  margin: 8px;
+  font-family: 'Concert One', cursive;
+  font-size: 20px;
 }

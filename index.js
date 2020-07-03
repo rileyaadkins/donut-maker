@@ -21,7 +21,8 @@ const resetButton = document.getElementById("reset-button");
 displayContainer.innerText = "Donut Count: " + count;
 
 // perks display
-autoClickerPriceDiv.innerText = "Current Price: " + autoClickerPrice + " donuts";
+autoClickerPriceDiv.innerText =
+  "Current Price: " + autoClickerPrice + " donuts";
 autoClickerCountDiv.innerText = "Purchased: " + autoClickerCount;
 multiplierPriceDiv.innerText = "Current Price: " + multiplierPrice + " donuts";
 multiplierCountDiv.innerText = "Purchased: " + donutMultiplierCount;
@@ -44,7 +45,8 @@ function buyAutoClicker() {
     autoClickerPrice = Math.round(autoClickerPrice * 1.1);
     displayContainer.innerText =
       "Donut Count: " + Math.round(count * 1000) / 1000;
-    autoClickerPriceDiv.innerText = "Current Price: " + autoClickerPrice + " donuts";
+    autoClickerPriceDiv.innerText =
+      "Current Price: " + autoClickerPrice + " donuts";
     autoClickerCountDiv.innerText = "Purchased: " + autoClickerCount;
     if (autoClickerCount <= 1) {
       activateAutoClickers();

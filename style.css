@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
 
 .container {
   display: grid;
@@ -14,12 +14,12 @@
 }
 
 .auto-clicker-count {
-    font-family: 'Concert One', cursive;
+  font-family: "Concert One", cursive;
   font-size: x-large;
 }
 
 .auto-clicker-price {
-    font-family: 'Concert One', cursive;
+  font-family: "Concert One", cursive;
   font-size: x-large;
 }
 
@@ -55,6 +55,15 @@ h2 {
 
 .perks {
   padding: 10px;
-  font-family: 'Concert One', cursive;
+  font-family: "Concert One", cursive;
   font-size: 20px;
+}
+
+#multiplier-button {
+  padding: 8px;
+  border-radius: 20px;
+  font-size: large;
+  background-color: lightgray;
+  border-color: black;
+  font-family: "Bebas Neue", cursive;
 }
